@@ -1,0 +1,11 @@
+var number = 10;
+console.log(number);
+
+let name = "shanu"
+console.log(name)
+
+const isGreater = true;
+console.log(isGreater)
+
+const arr= []
+typeof arr
