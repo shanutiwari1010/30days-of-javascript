@@ -38,9 +38,10 @@ console.log(library.name)
 //     console.log(book.getDetails())
 // })
 
-library.books.for (const key in object) {
-    if (Object.hasOwnProperty.call(object, key)) {
-        const element = object[key];
+for (let key in library.books) {
+    if (Object.hasOwnProperty.call(library.books, key)) {
+        const element = library.books[key];
+        console.log(`${key}: ${element}`);
         
     }
 }
